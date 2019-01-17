@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #37474F;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #263238;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.title {
+    margin: 15px;
+    color: #ECEFF1;
+}
+
+/* Search */
+
+.search_container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.search_bar {
+    width: 40%;
+    height: 35px;
+    font-size: 25px;
+    background-color: #263238;
+    border: none;
+    color: #ECEFF1;
+}
+
+.btn_search {
+    padding-left: 7px;
+}
+
+/* Date */
+
+.date {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color:#ECEFF1;
+}
+
+h6 {
+    margin:0;
+    font-size: 24px;
+}
+
+/* Main content */
+
+.eventlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.event_cont{
+    display: flex;
+    width: 85%;
+    background-color: #263238 ;
+}
+
+.info { /* Info of artists */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+p {
+    margin:0;
+}
+
+.artist , .venue , .location {
+    color: #ECEFF1;
+}
+
+.artist {
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.venue {
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.location {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.pics {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin: 10px;
+}
+
+
+
