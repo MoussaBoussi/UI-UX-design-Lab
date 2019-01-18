@@ -28,7 +28,7 @@ header {
 }
 
 .search_bar {
-    width: 40%;
+    width: 70%;
     height: 35px;
     font-size: 25px;
     background-color: #263238;
@@ -122,4 +122,21 @@ p {
     Margin: 10px;
     height: 75px;
     width: 75px;
+}
+
+/* DESKTOP VERSION */
+
+@media only screen and (min-width: 460px) {
+    
+    .search_bar {
+        width: 45%;
+    }
+    
+    .event_cont{
+        width: 65%;
+    }
+
+    .artist {
+        font-size: 25;
+    }
 }
