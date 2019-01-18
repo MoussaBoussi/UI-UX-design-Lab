@@ -116,6 +116,7 @@ p {
     width: 100px;
     align-self: center;
     margin: 10px;
+    border-radius: 50%;
 }
 
 /* SUBMIT NEW EVENT BUTTON */
