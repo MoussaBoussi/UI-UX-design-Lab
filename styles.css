@@ -29,6 +29,9 @@ header {
 
 .search_bar {
     width: 70%;
+}
+
+.search_bar , .input{
     height: 35px;
     font-size: 25px;
     background-color: #263238;
@@ -72,6 +75,7 @@ h6 {
     display: flex;
     width: 85%;
     background-color: #263238 ;
+    border-radius: 10px;
 }
 
 .info { /* Info of artists */
@@ -83,6 +87,7 @@ h6 {
 
 p {
     margin:0;
+    color: #ECEFF1;
 }
 
 .artist , .venue , .location {
@@ -124,6 +129,45 @@ p {
     width: 75px;
 }
 
+/* Form */
+
+.form_cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.form_text {
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.btn_cont {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.form_submit {
+    padding: 0px;
+    font-size: 16px;
+    width: 70%;
+    text-align: center;
+    color: #ECEFF1;
+    background-color: #263238;
+    border: 0;
+    height: 35px;
+    margin-top: 10px;
+}
+
 /* DESKTOP VERSION */
 
 @media only screen and (min-width: 460px) {
@@ -138,5 +182,9 @@ p {
 
     .artist {
         font-size: 25;
+    }
+
+    .input , .form_submit {
+        width: 60%;
     }
 }
